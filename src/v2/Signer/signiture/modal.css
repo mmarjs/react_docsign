@@ -1,0 +1,93 @@
+.ontop{
+    z-index: 999999;
+}
+
+
+/* Signature container */
+.signature-container {
+    display: flex;
+    align-items: center;
+    border: 1px solid #000; /* Add your desired border styles here */
+    padding: 10px; /* Add padding as needed */
+    margin: 10px; /* Add margin as needed */
+}
+
+/* Signature image styles */
+.saved-signature img {
+    max-width: 100px; /* Set the maximum width for the saved signature image */
+    height: auto; /* Maintain aspect ratio */
+}
+
+
+
+.modal-sign {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    width: 40%;
+}
+
+.modal-canvas canvas {
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    width: 100%;
+}
+
+.sign-type-input {
+    border: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.input-name {
+    margin-top: 32px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 16px;
+}
+
+.input-name label {
+    text-align: left;
+    font-size: 13px;
+}
+
+.input-name input {
+    padding: 8px;
+}
+
+
+
+
+
+
+
+.custom-file-input::before {
+    content: "Nạp";
+    display: inline-block;
+    background: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 5px 8px;
+    outline: none;
+    white-space: nowrap;
+    -webkit-user-select: none;
+    cursor: pointer;
+    text-shadow: 1px 1px #fff;
+    font-size: 10pt;
+    padding: 8px 16px;
+}
+
+.custom-file-input:hover::before {
+    border-color: black;
+}
+
+.custom-file-input:active::before {
+    background: -webkit-linear-gradient(top, #e3e3e3, #f9f9f9);
+}
+
+
+
+.form-sign-footer {
+    text-align: left;
+    position: absolute;
+    bottom: 16px;
+    left: 16px;
+}

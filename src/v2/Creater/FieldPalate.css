@@ -1,0 +1,17 @@
+.field-palate {
+    position: sticky;
+    top: 50%;
+    left: 100%; /* Set it to 0 to align on the right side */
+    transform: translateY(-50%);
+    padding: 10px;
+    z-index: 9999999;
+    width: fit-content;
+    background-color: #f0f0f0;
+    display: inline-block;
+}
+
+.field-palate div {
+    margin: 5px 0;
+}
+
+

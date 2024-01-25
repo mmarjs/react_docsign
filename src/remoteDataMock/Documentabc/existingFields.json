@@ -1,0 +1,32 @@
+[
+  {
+    "id": 0,
+    "width": 100,
+    "height": 100,
+    "x": 0,
+    "y": 0,
+    "pageNumber": 1,
+    "fieldTypeCode": "TemplateSignature",
+    "prevSaved": true
+  },
+  {
+    "id": 1,
+    "width": 100,
+    "height": 100,
+    "x": 761.0430297851562,
+    "y": 0,
+    "pageNumber": 1,
+    "fieldTypeCode": "TemplateFullName",
+    "prevSaved": true
+  },
+  {
+    "id": 2,
+    "width": 100,
+    "height": 100,
+    "x": 761.0430297851562,
+    "y": 109,
+    "pageNumber": 1,
+    "fieldTypeCode": "TemplateFullName",
+    "prevSaved": true
+  }
+]
